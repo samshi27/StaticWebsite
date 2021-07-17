@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-light ">
+        <a class="navbar-brand text-info" href="index.html">Logo</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="faq.html">FAQ</a>
+            </li>
+        </ul>
+        <form class="form-inline" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-info" type="submit">Search</button>
+        </form>
+    </nav>
+    <div class="container text-center py-5">
+        <h1 class="py-5">Contact Us.</h1>
+        <p>Mauris a laoreet dolor. Nulla et justo in ipsum finibus vulputate a ut nunc. In cursus aliquet placerat.</p>
+        <p>In non leo vitae lacus tempus aliquet. Proin pellentesque ante eget ante pretium, a bibendum nisi sodales. Integer ac pharetra turpis. Fusce accumsan tempus purus, porttitor consectetur tortor efficitur in. Sed cursus ligula eros, et eleifend purus suscipit ac. Quisque vitae gravida arcu, id bibendum nibh. Aenean at massa nec felis vehicula facilisis eget in dolor. In finibus sed erat eget semper. Etiam feugiat nisi et velit posuere, sed blandit nibh rutrum.</p>
+    </div>
+    <div class="container">
+        <form action="/action_page.php">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="comment">Comments/Suggestions:</label>
+                <input type="text" class="form-control" id="cmt" placeholder="Comment" name="cmnt">
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+    </div>
+    <div class="container text-center pt-5">
+        <p class="text-muted credit" style="color:#fff">&copy; Owner. 2021.</p>
+    </div>
+</body>
+</html>
